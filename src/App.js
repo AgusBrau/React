@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TiempoEjecucion from "./Components/TiempoEjecucion";
+import Form from "./userRegistration/Form";
+import UserList from "./ListOfUser/UserList";
 
 function App() {
+  const emailLabel = "Correo";
+  const passwordLabel = "Contraseña";
+  const password2Label = "contraseña";
+  const usernameLabel = "Usuario";
+  const ciudadLabel = "Ciudad";
+  const provinciaLabel = "Provincia";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="text-bg-primary p-3">Registrar usuario</h2>
+      <TiempoEjecucion />
+      <Form
+        email={emailLabel}
+        password={passwordLabel}
+        password2={password2Label}
+        username={usernameLabel}
+        ciudad={ciudadLabel}
+        provincia={provinciaLabel}
+      />
+      <UserList />
     </div>
   );
 }

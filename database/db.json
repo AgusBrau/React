@@ -1,0 +1,22 @@
+{
+  "Userbase": [
+    {
+      "id": "8094",
+      "Usuario": "usernamep",
+      "Correo": "prueba@email",
+      "Contraseña": "pass1",
+      "contraseña": "pass2",
+      "Provincia": "San Luis",
+      "Ciudad": "Cityp"
+    },
+    {
+      "id": "2223",
+      "Usuario": "1",
+      "Correo": "2",
+      "Contraseña": "3",
+      "contraseña": "4",
+      "Provincia": "Misiones",
+      "Ciudad": "5"
+    }
+  ]
+}
